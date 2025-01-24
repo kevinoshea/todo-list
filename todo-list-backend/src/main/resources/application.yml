@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: todo-list-backend
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    generate-ddl: true
+    hibernate.ddl-auto: create-drop # drops schema at end of session so it recreates empty
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: password
+  sql:
+    init:
+      platform: postgres
