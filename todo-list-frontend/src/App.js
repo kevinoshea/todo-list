@@ -1,9 +1,11 @@
-import ToDoList from './modules/ToDoList';
+import ToDoList from './components/ToDoList';
 
 function App() {
   return (
-    <div style={{ padding: 20 }}>
-      <ToDoList />
+    <div style={{ background: '#81bfff', height: '100vh' }}>
+      <div style={{ padding: 20 }}>
+        <ToDoList />
+      </div>
     </div>
   );
 }
